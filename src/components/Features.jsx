@@ -1,4 +1,4 @@
-import { BrainCircuit, Mic, Waveform, Shield } from 'lucide-react'
+import { Brain, Mic, Shield, BarChart3 } from 'lucide-react'
 
 const items = [
   {
@@ -7,12 +7,12 @@ const items = [
     desc: 'Capture thoughts in the moment. Echo transcribes with care and nuance.'
   },
   {
-    icon: BrainCircuit,
+    icon: Brain,
     title: 'Gentle insights',
     desc: 'Spot emotional patterns over time—without judgment or noisy dashboards.'
   },
   {
-    icon: Waveform,
+    icon: BarChart3,
     title: 'Daily rhythm',
     desc: 'Light prompts help you reflect and return, one small note at a time.'
   },
