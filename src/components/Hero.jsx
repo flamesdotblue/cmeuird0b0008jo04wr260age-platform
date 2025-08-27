@@ -24,7 +24,15 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="text-4xl leading-tight sm:text-6xl sm:leading-[1.05]"
             >
-              A calm place to hear yourself think.
+              A calm place to{' '}
+              <span
+                className="relative inline-block align-baseline"
+                style={{ fontFamily: 'Caveat, ui-rounded, system-ui, sans-serif' }}
+              >
+                hear yourself think
+                <span className="absolute -bottom-1 left-0 h-[6px] w-full rounded-full bg-gradient-to-r from-emerald-200 via-rose-200 to-sky-200 opacity-80" />
+              </span>
+              .
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 10 }}
